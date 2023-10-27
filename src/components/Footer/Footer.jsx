@@ -13,12 +13,12 @@ return (
     <hr />
     <div className="footer">
         <div className="social">
-            <a href="https://www.instagram.com/olymp_usgym/?hl=de" target="_blank">
+            <a href="https://www.instagram.com/olymp_usgym/?hl=de" target="_blank" rel="noreferrer">
                 <img className='insta' src={Instagram} alt="" /></a>
-            <a href="https://www.facebook.com/Olympusgym62?mibextid=ZbWKwL" target="_blank">
+            <a href="https://www.facebook.com/Olympusgym62?mibextid=ZbWKwL" target="_blank"rel="noreferrer">
                 <img className='fb' src={facebook} alt="" /></a>
 
-            <a href="https://www.google.com/maps/place/Olympus_Gym/@-31.5945441,-64.3473084,15z/data=!4m6!3m5!1s0x942d59b487105277:0xbfaa7f4a474d29fe!8m2!3d-31.5945441!4d-64.3473084!16s%2Fg%2F11v9y553x7?entry=ttu" target="_blank">
+            <a href="https://www.google.com/maps/place/Olympus_Gym/@-31.5945441,-64.3473084,15z/data=!4m6!3m5!1s0x942d59b487105277:0xbfaa7f4a474d29fe!8m2!3d-31.5945441!4d-64.3473084!16s%2Fg%2F11v9y553x7?entry=ttu" target="_blank" rel="noreferrer">
                 <img className='maps' src={maps} alt="" /></a>
 
 

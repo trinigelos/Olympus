@@ -19,7 +19,6 @@ const Reasons = () => {
               >
                   <span>QUIENES </span>
                   <span className='stroke-text'>SOMOS?</span>
-                  {/* <span> NOSOTROS?</span> */}
               </motion.div>
 
 

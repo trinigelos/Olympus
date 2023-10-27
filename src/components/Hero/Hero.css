@@ -6,8 +6,6 @@
     
 }
 
-
-
 .left-h {
     padding: 2rem 2rem 0;
     padding-top: 1.5rem;
@@ -18,21 +16,17 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .right-h {
     flex: 2;
     position: relative;
-
 }
 
 .hero-text {
     padding: 0;
     justify-content: center;
     align-items: center;
-
 }
 
 .olympus-text {
@@ -44,7 +38,6 @@
     font-family: 'Cardo', serif;
     letter-spacing: 6px;
     text-shadow: 2px 5px #262626;
-
 }
 
 .semidioses-text {
@@ -56,8 +49,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .hero-image {
@@ -71,15 +62,36 @@
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 980px) {
+
+    .right-h {
+        left: -2;
+        width: 768px;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 1128px) {
 
     .hero {
         justify-content: center;
         align-items: center;
     }
 
-    
+    .left-h {
+        position: relative;
+        z-index: 2;
+    }
 
+    .right-h {
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        z-index: 1;
+        width: 900px;
+        object-fit: cover;
+        display: flex;
+    }
 
     .olympus-text {
         font-size: 4rem;
@@ -94,54 +106,5 @@
         justify-content: center;
         align-items: center;
     }
-
-    .right-h {
-        position: absolute;
-        transition: none;
-        top: 0;
-        left: -2;
-        height: 100vh;
-        z-index: 1;
-        width: 768px;
-        overflow-x: hidden;
-        object-fit: cover;
-    }
-
-
 }
 
-@media only screen and (max-width: 479px) {}
-
-@media only screen and (max-width: 1220px) {
-
-    .left-h {
-        position: relative;
-        z-index: 2;
-    }
-
-    .right-h {
-        position: absolute;
-        top: 0;
-        height: 100vh;
-        z-index: 1;
-        width: 1000px;
-        overflow-x: hidden;
-        object-fit: cover;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-    }
-}
-
-
-
-
-/* Small devices such as large phones (640px and up) */
-/* @media only screen and (max-width: 479px) {} */
-
-
-/* Medium devices such as tablets (768px and up) */
-/* @media only screen and (max-width: 767px) {} */
-
-/* Large devices such as laptops (1024px and up) */
-/* @media only screen and (max-width: 984px) {} */

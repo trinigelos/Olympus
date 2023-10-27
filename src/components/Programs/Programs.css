@@ -23,7 +23,6 @@
 .program-categories{
     display: flex;
     gap: 1rem;
-    /* margin: 0 2rem; */
 }
 
 .category{
@@ -60,26 +59,24 @@
 }
 
 @media screen and (max-width:768px) {
-    .programs-header{
-        flex-direction: column;
-        gap: 1rem;
-        font-size: x-large;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2rem;
-    }
-
-    .program-categories{
-        flex-direction: column;
-        
-    }
+  
+    
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 1128px) {
+@media screen and (max-width: 1128px) {
     .programs-header{
         align-items: center;
+        flex-direction: column;
         gap: 1rem;
-        font-size: xx-large;
+        margin-top: 2rem;
+        gap: 1rem;
+        font-size: 2rem;
+        justify-content: center;
+
+    }
+    .program-categories{
+        flex-direction: column;
+        
     }
 }

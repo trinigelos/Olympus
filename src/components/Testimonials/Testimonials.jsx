@@ -17,8 +17,7 @@ const Testimonials = () => {
           initial={{opacity: 0, x: 50}}
                 whileInView={{ opacity: 1, x: 0 }}  
           >
-              <span className='stroke-text'>PERSONAS QUE SE ANIMARON A</span>
-              <span>CAMBIAR SUS VIDAS</span>
+              <span >ANTES Y DESPUES</span>
               <motion.span
               key={selected}
               animate={{opacity: 1, x: 0}}
@@ -27,7 +26,7 @@ const Testimonials = () => {
               transition={{transition}}
               >{testimonialsData[selected].review}</motion.span>
               <span>
-                  <span style={{ color: "var(--orange)" }}>
+                  <span style={{ color: "white" }}>
                       {testimonialsData[selected].name}</span>
                {" "} ~ {testimonialsData[selected].status}
               </span>
@@ -35,17 +34,7 @@ const Testimonials = () => {
              
           </motion.div>
           <div className="testimonials-r">
-              <motion.div
-                   transition={{...transition, duration:2}}
-                   initial={{opacity: 0, x: -100}}
-                   whileInView={{opacity: 1, x: 0}}>
               
-              </motion.div>
-              <motion.div
-                  transition={{...transition, duration:2}}
-                  initial={{opacity: 0, x: 100}}
-                  whileInView={{opacity: 1, x: 0}}>
-              </motion.div>
               <motion.img
                   key={selected}
                   animate={{opacity: 1, x: 0}}

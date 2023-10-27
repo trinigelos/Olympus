@@ -1,56 +1,64 @@
-.Reasons{
-    padding: 2rem 2rem;
+.Reasons {
+    padding: 2rem;
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.right-r{
-     text-transform: uppercase;
-     width: 60%;
-     
 
 
-}
-
-.right-r>div>span{
+.right-r>div>span {
     font-weight: bold;
     font-size: 3.5rem;
-    
-   
 }
 
-.right-r>div{
+.right-r>div {
     color: white;
     font-size: 3.5rem;
-    
-    
-
 }
 
-.video{
+.video {
     height: 25rem;
     width: 60rem;
     border-color: white;
     background-color: white;
-    
 }
 
 
-@media screen and (max-width:768px) {
-    .Reasons{
+
+@media screen and (max-width: 1128px) {
+    .Reasons {
         flex-direction: column;
+        padding: 2rem;
+        overflow: hidden;
     }
 
-}
+    .right-r {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 0;
+    }
 
-@media screen and (min-width: 769px) and (max-width: 1128px) {
-.Reasons{
-flex-direction: column;
-}
+    .video {
+        height: 320px;
+        width: 100%;
+        border-color: white;
+        background-color: white;
+        overflow-x: hidden;
+    }
+
+    .right-r>div>span {
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        position: relative;
+        padding: 0;
+    }
 
 
 
-  
+
 }
