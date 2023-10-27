@@ -1,0 +1,115 @@
+.Join{
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+    margin-top: 7rem;
+}
+
+.left-j{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+
+}
+
+.left-j>hr{
+ position: absolute;
+ width: 40rem;
+ border: 2px solid gray;
+ border: 20%;
+ margin: -10px 0;
+}
+
+.left-j>div{
+ display: flex;
+ gap: 0.5rem;
+}
+
+.right-j{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.email-container{
+    display: flex;
+    gap: 3rem;
+    background-color: gray;
+    padding: 1rem 2rem;
+    width: fit-content;
+
+
+}
+
+.email-container>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgrayz);
+    width: fit-content;
+    z-index: 100;
+    cursor: default;
+}
+::placeholder{
+    color: var(--lightgray);
+}
+
+.btn-j{
+    background-color: var(--orange);
+    color: white;
+
+}
+
+@media screen and (max-width:768px) {
+.Join{
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.left-j{
+    font-size: x-large;
+    flex-direction: column;
+
+}
+.right-j{
+    padding: 2rem;
+    justify-content: center;
+
+}
+.left-j>div{
+    flex-wrap: wrap ;
+    justify-content: center;
+    font-size: x-large;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1128px) {
+    .Join{
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .left-j>hr{
+        width: 30rem;
+    }
+    .left-j{
+        font-size: 30rem;
+        flex-direction: column;
+    
+    }
+    .right-j{
+        padding: 2rem;
+        justify-content: center;
+        size: 15rem;
+}
+
+
+    .left-j>div{
+        flex-wrap: wrap ;
+        justify-content: center;
+        font-size: 3.5rem;
+    }
+}

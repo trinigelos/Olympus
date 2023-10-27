@@ -1,0 +1,56 @@
+.Reasons{
+    padding: 2rem 2rem;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.right-r{
+     text-transform: uppercase;
+     width: 60%;
+     
+
+
+}
+
+.right-r>div>span{
+    font-weight: bold;
+    font-size: 3.5rem;
+    
+   
+}
+
+.right-r>div{
+    color: white;
+    font-size: 3.5rem;
+    
+    
+
+}
+
+.video{
+    height: 25rem;
+    width: 60rem;
+    border-color: white;
+    background-color: white;
+    
+}
+
+
+@media screen and (max-width:768px) {
+    .Reasons{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1128px) {
+.Reasons{
+flex-direction: column;
+}
+
+
+
+  
+}
