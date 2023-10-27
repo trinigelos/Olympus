@@ -13,7 +13,7 @@ const Join = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('YOUR_SERVICE_ID', 'templateAUTOreply', form.current, 'Eb4oK8zt1zYnRDJFV')
+      emailjs.sendForm('service_u7xh6gl', 'templateAUTOreply', form.current, 'Eb4oK8zt1zYnRDJFV')
         .then((result) => {
             console.log(result.text);
             form.current.reset();
