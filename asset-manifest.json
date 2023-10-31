@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/Olympus/static/css/main.2a2e6d86.css",
-    "main.js": "/Olympus/static/js/main.361dc9e8.js",
+    "main.css": "/Olympus/static/css/main.12c2592a.css",
+    "main.js": "/Olympus/static/js/main.6b84796c.js",
     "static/media/gym.png": "/Olympus/static/media/gym.04539531964d009660c7.png",
+    "static/media/image5.png": "/Olympus/static/media/image5.c7490e81d68c622aa740.png",
+    "static/media/image6.png": "/Olympus/static/media/image6.5262ba9a45e662b679e8.png",
+    "static/media/image4.png": "/Olympus/static/media/image4.d1efdaed79bf8dd0a136.png",
+    "static/media/image3.png": "/Olympus/static/media/image3.ecaa14ab0e6f4e990560.png",
+    "static/media/image1.png": "/Olympus/static/media/image1.e8e49de01c186cf90d24.png",
+    "static/media/image2.png": "/Olympus/static/media/image2.3541f9b3ad0c1ab1c911.png",
     "static/media/maps.png": "/Olympus/static/media/maps.28481183d2f27e5dd4c5.png",
-    "static/media/t-image1.png": "/Olympus/static/media/t-image1.c16c2c261034cf78ee57.png",
-    "static/media/t-image3.jpg": "/Olympus/static/media/t-image3.3894413f7bf2b4f1fc54.jpg",
-    "static/media/t-image2.jpg": "/Olympus/static/media/t-image2.f5d2e52e514c544dfffb.jpg",
     "static/media/templo.png": "/Olympus/static/media/templo.721857cbb196a16649d4.png",
     "static/media/facebook.png": "/Olympus/static/media/facebook.ee41a45d074af88d4e3f.png",
     "index.html": "/Olympus/index.html",
-    "main.2a2e6d86.css.map": "/Olympus/static/css/main.2a2e6d86.css.map",
-    "main.361dc9e8.js.map": "/Olympus/static/js/main.361dc9e8.js.map"
+    "main.12c2592a.css.map": "/Olympus/static/css/main.12c2592a.css.map",
+    "main.6b84796c.js.map": "/Olympus/static/js/main.6b84796c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a2e6d86.css",
-    "static/js/main.361dc9e8.js"
+    "static/css/main.12c2592a.css",
+    "static/js/main.6b84796c.js"
   ]
 }
