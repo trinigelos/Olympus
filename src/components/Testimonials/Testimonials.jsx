@@ -1,60 +1,50 @@
-import React, { useState } from 'react'
-import "./Testimonials.css";
-import { testimonialsData } from '../../data/testimonialsData';
-import rightArrow from "../../assets/rightArrow.png";
-import { motion} from "framer-motion" 
-
+import React from 'react';
+import "./Testimonials.css"
+import TinySlider from "tiny-slider-react";
+import 'tiny-slider/dist/tiny-slider.css';
+import image1 from "../../assets/image1.png";
+import image2 from "../../assets/image2.png";
+import image3 from "../../assets/image3.png";
+import image4 from "../../assets/image4.png";
+import image5 from "../../assets/image5.png";
+import image6 from "../../assets/image6.png";
 
 const Testimonials = () => {
-    const [selected, setSelected] = useState(0);
-    const tLength = testimonialsData.length;
-    const transition = {type: "spring", duration: 3}
+const imgs = [image1, image2, image3, image4, image5, image6];
 
-  return (
-      <div className='Testimonials' id='testimonialsSection'>
-          <motion.div className="testimonials-l"
-          transition={{...transition, duration:2}}
-          initial={{opacity: 0, x: 50}}
-                whileInView={{ opacity: 1, x: 0 }}  
-          >
-              <span >ANTES Y DESPUES</span>
-              <motion.span
-              key={selected}
-              animate={{opacity: 1, x: 0}}
-              initial={{ opacity: 0, x: -100 }}
-              exit={{ opacity: 0, x: 100 }}
-              transition={{transition}}
-              >{testimonialsData[selected].review}</motion.span>
-              <span>
-                  <span style={{ color: "white" }}>
-                      {testimonialsData[selected].name}</span>
-               {" "} ~ {testimonialsData[selected].status}
-              </span>
-             
-             
-          </motion.div>
-          <div className="testimonials-r">
-              
-              <motion.img
-                  key={selected}
-                  animate={{opacity: 1, x: 0}}
-                  initial={{ opacity: 0, x: 100 }}
-                  exit={{ opacity: 0, x: -100 }}
-                  transition={{transition}}
+const settings = {
+loop: true,
+    center: true,
+    mode: "gallery",
 
-                 src={testimonialsData[selected].image} alt="" />
-              <div className="arrows">
-                      <img
-                       onClick={() => (
-                        selected === tLength -1
-                            ? setSelected(0)
-                            : setSelected((prev) => prev +  1)
-                    )}
-                      src={rightArrow} alt="" />
-              </div>
-          </div>
+items: 1,
+autoplay: true,
+dots: true,
+autoplayTimeout: 2000,
+smartSpeed: 450,
+controls: false,
+
+responsive: {},
+};
+
+return (
+<div className='Testimonials'>
+
+    <div className='left'>
+        <TinySlider settings={settings}>
+            {imgs.map((image, index) => (
+            <div className="m" key={index}>
+                <img className="tns-item main-image" src={image} alt={`Img ${index}`} />
+            </div>
+            ))}
+        </TinySlider>
+        </div>
+        
+    <div className='right'>
+        <h1 className='stroke-text'>CAMBIOS </h1>
     </div>
-  )
-}
+</div>
+);
+};
 
-export default Testimonials
+export default Testimonials;
