@@ -4,26 +4,44 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+    height: 90vh;
 }
 
 
-
+.right-r{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 25rem;
+    
+}
 
 .right-r>div>span {
     font-weight: bold;
     font-size: 3.5rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    
 }
 
 .right-r>div {
     color: white;
     font-size: 3.5rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .video {
     height: 25rem;
-    width: 60rem;
-    border-color: white;
-    background-color: white;
+    width: 43rem;
+    border-color: rgba(255, 255, 255, 0.147);
+    background-color: rgba(255, 255, 255, 0.136);
 }
 
 
@@ -33,6 +51,7 @@
         flex-direction: column;
         padding: 2rem;
         overflow: hidden;
+        height: 50vh;
     }
 
     .right-r {
@@ -46,8 +65,8 @@
     .video {
         height: 320px;
         width: 100%;
-        border-color: white;
-        background-color: white;
+        border-color: rgba(255, 255, 255, 0.127);
+        background-color: rgba(255, 255, 255, 0.192);
         overflow-x: hidden;
     }
 

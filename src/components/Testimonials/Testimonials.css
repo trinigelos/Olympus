@@ -8,75 +8,74 @@
 .right {
     flex: 1;
     position: relative;
-    right: 3rem;
+    right: 1rem;
 }
 
 .left {
     flex: 1;
-    padding: 20px 0; 
+    padding: 20px 0;
     position: relative;
-    left: 4rem;
+    left: 3rem;
 }
 
 
 h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 6rem;
+    font-size: 5rem;
     position: relative;
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
-    text-transform: uppercase;
     font-style: italic;
     text-shadow: 4px 4px 2px rgba(255, 255, 255, 0.095);
 }
 
-.tns-outer{
-margin: 0;
-max-width: 600px;
+.tns-outer {
+    max-width: 600px;
+    /* background-color: rgba(33, 33, 39, 0.24);
+border-radius: 6%; */
+    height: 30rem;
+
+}
+
+.tns-inner {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .tns-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    text-align: center;
-    height: 29rem;
-
+    max-width: 550px;
 
 }
 
-.tns-nav {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 15px;
+.main-image {
+
+    height: 27rem;
+    padding: 1rem 1rem 2rem;
+    box-shadow: 3px 3px 4px 4px rgb(35, 35, 35);
+    border-radius: 8px 8px;
+
 }
 
-.tns-nav button {
-    background: #6b6b6b;
-    border: none;
-    margin: 0 5px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-}
+
 
 button[data-action="start"],
-button[data-action="stop"] {
+button[data-action="stop"],
+.tns-nav {
     display: none;
 }
 
 
-.tns-nav button.tns-nav-active {
-    background: #fff;
-}
 
 
 @media screen and (max-width: 1128px) {
-    .Testimonials{
+    .Testimonials {
         flex-direction: column;
     }
 
@@ -84,36 +83,43 @@ button[data-action="stop"] {
         justify-content: flex-start;
         align-items: flex-start;
         right: 0;
-        margin-top: -2rem;
+        margin: -39rem 0 22rem 0;
+        
     }
-    
+
     .left {
         justify-content: center;
         align-items: center;
-        left: 1rem;
-        right: 1rem;
+        display: flex;
+        text-align: center;
+        left: 0;
+        margin-top: 5rem;
+        /* left: 1rem; */
+        /* right: 1rem; */
     }
 
     h1 {
         font-size: 3rem;
     }
-    .tns-outer{
-    padding: 0 40px;
+
+    .tns-outer {
+        padding: 0 40px;
         max-width: 90%;
-        }
-        
-    .tns-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-    height: 15rem;
+    }
 
-}
+    .tns-inner{
+        max-width: 90%;
+    }
 
-.tns-nav button {
-    width: 15px;
-    height: 15px;
-}
+    .main-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+
+    }
+
+    
 }
