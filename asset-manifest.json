@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Olympus/static/css/main.12c2592a.css",
-    "main.js": "/Olympus/static/js/main.6b84796c.js",
+    "main.css": "/Olympus/static/css/main.230036a9.css",
+    "main.js": "/Olympus/static/js/main.60a4bbe2.js",
     "static/media/gym.png": "/Olympus/static/media/gym.04539531964d009660c7.png",
-    "static/media/image5.png": "/Olympus/static/media/image5.c7490e81d68c622aa740.png",
-    "static/media/image6.png": "/Olympus/static/media/image6.5262ba9a45e662b679e8.png",
-    "static/media/image4.png": "/Olympus/static/media/image4.d1efdaed79bf8dd0a136.png",
-    "static/media/image3.png": "/Olympus/static/media/image3.ecaa14ab0e6f4e990560.png",
-    "static/media/image1.png": "/Olympus/static/media/image1.e8e49de01c186cf90d24.png",
-    "static/media/image2.png": "/Olympus/static/media/image2.3541f9b3ad0c1ab1c911.png",
     "static/media/maps.png": "/Olympus/static/media/maps.28481183d2f27e5dd4c5.png",
+    "static/media/image5.jpg": "/Olympus/static/media/image5.0d166d568a961f1cd5a3.jpg",
+    "static/media/image3.jpg": "/Olympus/static/media/image3.a62198a527f521a730fc.jpg",
+    "static/media/image4.jpg": "/Olympus/static/media/image4.b81e43d3c760df1dd894.jpg",
+    "static/media/image6.jpg": "/Olympus/static/media/image6.2cf6df4f20166bca2e0c.jpg",
+    "static/media/image2.jpg": "/Olympus/static/media/image2.76b0656c6a1a78509e0d.jpg",
+    "static/media/image1.jpg": "/Olympus/static/media/image1.1d341d38648420314393.jpg",
     "static/media/templo.png": "/Olympus/static/media/templo.721857cbb196a16649d4.png",
     "static/media/facebook.png": "/Olympus/static/media/facebook.ee41a45d074af88d4e3f.png",
     "index.html": "/Olympus/index.html",
-    "main.12c2592a.css.map": "/Olympus/static/css/main.12c2592a.css.map",
-    "main.6b84796c.js.map": "/Olympus/static/js/main.6b84796c.js.map"
+    "main.230036a9.css.map": "/Olympus/static/css/main.230036a9.css.map",
+    "main.60a4bbe2.js.map": "/Olympus/static/js/main.60a4bbe2.js.map"
   },
   "entrypoints": [
-    "static/css/main.12c2592a.css",
-    "static/js/main.6b84796c.js"
+    "static/css/main.230036a9.css",
+    "static/js/main.60a4bbe2.js"
   ]
 }
