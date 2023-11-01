@@ -1,28 +1,29 @@
 .Testimonials {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1px
 }
 
 .right {
-    flex: 1;
     position: relative;
-    right: 1rem;
+    flex-shrink: 2;
+    padding-right: 60px;
 }
 
 .left {
-    flex: 1;
+    flex: 2;
+}
+.outer-div{
+    display: flex;
+    justify-content: center;
     padding: 20px 0;
-    position: relative;
-    left: 3rem;
+
 }
 
 
 h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 4.5rem;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -31,48 +32,15 @@ h1 {
     text-shadow: 4px 4px 2px rgba(255, 255, 255, 0.095);
 }
 
-.tns-outer {
-    max-width: 600px;
-    /* background-color: rgba(33, 33, 39, 0.24);
-border-radius: 6%; */
-    height: 30rem;
-
-}
-
-.tns-inner {
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.tns-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 550px;
-
-}
-
 .main-image {
 
     height: 27rem;
     padding: 1rem 1rem 2rem;
-    box-shadow: 3px 3px 4px 4px rgb(35, 35, 35);
-    border-radius: 8px 8px;
+    box-shadow: 3px 3px 4px 4px rgb(58, 58, 58);
+    /* border-radius: 8px 8px; */
+    width: 36rem;
 
 }
-
-
-
-button[data-action="start"],
-button[data-action="stop"],
-.tns-nav {
-    display: none;
-}
-
-
-
 
 @media screen and (max-width: 1128px) {
     .Testimonials {
@@ -80,36 +48,26 @@ button[data-action="stop"],
     }
 
     .right {
-        justify-content: flex-start;
-        align-items: flex-start;
-        right: 0;
-        margin: -39rem 0 22rem 0;
-        
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-right: 0;
+
+
     }
 
     .left {
         justify-content: center;
         align-items: center;
         display: flex;
-        text-align: center;
         left: 0;
-        margin-top: 5rem;
-        /* left: 1rem; */
-        /* right: 1rem; */
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
-    .tns-outer {
-        padding: 0 40px;
-        max-width: 90%;
-    }
-
-    .tns-inner{
-        max-width: 90%;
-    }
 
     .main-image {
         display: flex;
@@ -121,5 +79,26 @@ button[data-action="stop"],
 
     }
 
-    
+
 }
+
+@media screen and (max-width: 1000px) {
+    .Testimonials {
+        flex-direction: column;
+    }
+    .left {
+        width: 90%;
+    }
+    .main-image {
+        width: 90%;
+    }
+      
+}
+
+
+@media screen and (max-width: 580px) {
+    h1{
+        font-size: 3rem;
+    }
+
+   }
