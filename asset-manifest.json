@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Olympus/static/css/main.230036a9.css",
-    "main.js": "/Olympus/static/js/main.60a4bbe2.js",
+    "main.css": "/Olympus/static/css/main.df74fbeb.css",
+    "main.js": "/Olympus/static/js/main.829dee6f.js",
     "static/media/gym.png": "/Olympus/static/media/gym.04539531964d009660c7.png",
     "static/media/maps.png": "/Olympus/static/media/maps.28481183d2f27e5dd4c5.png",
     "static/media/image5.jpg": "/Olympus/static/media/image5.0d166d568a961f1cd5a3.jpg",
@@ -13,11 +13,11 @@
     "static/media/templo.png": "/Olympus/static/media/templo.721857cbb196a16649d4.png",
     "static/media/facebook.png": "/Olympus/static/media/facebook.ee41a45d074af88d4e3f.png",
     "index.html": "/Olympus/index.html",
-    "main.230036a9.css.map": "/Olympus/static/css/main.230036a9.css.map",
-    "main.60a4bbe2.js.map": "/Olympus/static/js/main.60a4bbe2.js.map"
+    "main.df74fbeb.css.map": "/Olympus/static/css/main.df74fbeb.css.map",
+    "main.829dee6f.js.map": "/Olympus/static/js/main.829dee6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.230036a9.css",
-    "static/js/main.60a4bbe2.js"
+    "static/css/main.df74fbeb.css",
+    "static/js/main.829dee6f.js"
   ]
 }
