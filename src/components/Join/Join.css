@@ -18,6 +18,7 @@
     border: 2px solid gray;
     border: 20%;
     margin: -10px 0;
+    border-radius: 0;
 }
 
 .left-j>div {
