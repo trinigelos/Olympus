@@ -6,6 +6,7 @@ import image3 from "../../assets/image3.jpg";
 import image4 from "../../assets/image4.jpg";
 import image5 from "../../assets/image5.jpg";
 import image6 from "../../assets/image6.jpg";
+import { motion } from 'framer-motion'
 
 const Testimonials = () => {
 
@@ -28,13 +29,16 @@ clearInterval(interval);
 
 return (
 <div className='Testimonials'>
-
-    <div className='left'>
-       <div className='outer-div'> <img className='main-image' src={images[currentImageIndex]} alt="" /></div>
-    </div>
-    <div className='right'>
+        <motion.div className='right'
+         transition={{type:"spring", duration:2}}
+         initial={{opacity: 0, x: 50}}
+               whileInView={{ opacity: 1, x: 0 }}  >
         <h1 className='stroke-text'>RESULTADOS</h1>
+    </motion.div>
+    <div className='left'>
+        <div className='outer-div'> <img className='main-image' src={images[currentImageIndex]} alt="" /></div>
     </div>
+
 </div>
 );
 };

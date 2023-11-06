@@ -4,9 +4,19 @@
     gap: 2rem;
     padding: 0 2rem;
     align-items: center;
-    margin-top: -3rem;
+    /* margin-top: -3rem; */
+    /* background-color: #0c2146;     */
+   
+}
+
+.background{
+    background-image: url(C:\Users\trini\OneDrive\Escritorio\Gym-website\FitClub-Starter\src\assets\gymfoto1.png);
+    background-size: 100%;
+    opacity: 0.3;
 
 }
+
+
 
 .programs-header{
     text-align: center;
@@ -18,19 +28,20 @@
     color: white;
     text-transform: uppercase;
     font-style: italic;
-    padding: 1rem 0 2rem 0;
+    padding: 2rem 0 0;
 }
 
 .program-categories{
     display: flex;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .category{
     display: flex;
     flex-direction: column;
-    background-color: rgba(128, 128, 128, 0.031);
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.154);
+    background-color: rgba(9, 9, 9, 0.125);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.248);
     padding: 2rem;
     gap: 1rem;
     color: white;

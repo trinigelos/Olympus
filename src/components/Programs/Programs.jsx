@@ -2,10 +2,13 @@ import React from 'react';
 import "./Programs.css";
 import { programsData } from "../../data/programsData";
 import { motion } from 'framer-motion';
+
+
 const Programs = () => {
     const transition = {type: "spring", duration: 3}
     
   return (
+    
       <div className='Programs' id='programsSection'>
           {/* header */}
           <motion.div className="programs-header"
