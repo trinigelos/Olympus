@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Olympus/static/css/main.b398224b.css",
-    "main.js": "/Olympus/static/js/main.829dee6f.js",
-    "static/media/gym.png": "/Olympus/static/media/gym.04539531964d009660c7.png",
+    "main.css": "/Olympus/static/css/main.5ff009e2.css",
+    "main.js": "/Olympus/static/js/main.afe09272.js",
+    "static/media/gym.png": "/Olympus/static/media/gym.53321b9e58002c9f58a9.png",
+    "static/media/gymfoto1.png": "/Olympus/static/media/gymfoto1.7f4ca5630c19777810a3.png",
     "static/media/maps.png": "/Olympus/static/media/maps.28481183d2f27e5dd4c5.png",
     "static/media/image5.jpg": "/Olympus/static/media/image5.0d166d568a961f1cd5a3.jpg",
     "static/media/image3.jpg": "/Olympus/static/media/image3.a62198a527f521a730fc.jpg",
@@ -13,11 +14,11 @@
     "static/media/templo.png": "/Olympus/static/media/templo.721857cbb196a16649d4.png",
     "static/media/facebook.png": "/Olympus/static/media/facebook.ee41a45d074af88d4e3f.png",
     "index.html": "/Olympus/index.html",
-    "main.b398224b.css.map": "/Olympus/static/css/main.b398224b.css.map",
-    "main.829dee6f.js.map": "/Olympus/static/js/main.829dee6f.js.map"
+    "main.5ff009e2.css.map": "/Olympus/static/css/main.5ff009e2.css.map",
+    "main.afe09272.js.map": "/Olympus/static/js/main.afe09272.js.map"
   },
   "entrypoints": [
-    "static/css/main.b398224b.css",
-    "static/js/main.829dee6f.js"
+    "static/css/main.5ff009e2.css",
+    "static/js/main.afe09272.js"
   ]
 }
