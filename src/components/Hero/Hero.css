@@ -103,9 +103,17 @@
 
     .semidioses-text {
         font-size: 1rem;
+        font-weight: bold;
         letter-spacing: 6px;
         justify-content: center;
         align-items: center;
+        background-color: #e5db1670;
+        text-shadow: none;
+    }
+
+    .hero-image{
+    opacity: 60%;
+
     }
 }
 
