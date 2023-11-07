@@ -16,7 +16,7 @@ export const programsData = [
     ),
     heading: "FUERZA Y MUSCULACION",
     details:
-    "Maximiza tu potencial de fuerza con entrenamientos personalizados y equipos de alta calidad en nuestro gimnasio.",
+    "Máxima tu potencial  de fuerza con entrenamientos personalizados y acompañado de los mejores profesionales en nuestro gimnasio y a distancia.",
   },
   {
     image: <svg width="16" height="17" viewBox="0 0 16 17"  xmlns="http://www.w3.org/2000/svg">

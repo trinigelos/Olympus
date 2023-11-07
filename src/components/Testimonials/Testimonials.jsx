@@ -33,7 +33,7 @@ return (
          transition={{type:"spring", duration:2}}
          initial={{opacity: 0, x: 50}}
                whileInView={{ opacity: 1, x: 0 }}  >
-        <h1 className='stroke-text'>RESULTADOS</h1>
+        <h1 className='stroke-text-h1'>RESULTADOS</h1>
     </motion.div>
     <div className='left'>
         <div className='outer-div'> <img className='main-image' src={images[currentImageIndex]} alt="" /></div>

@@ -33,12 +33,12 @@ const Join = () => {
                 whileInView={{ opacity: 1, x: 0 }} >
               <hr />
               <div >
-                  <span>ESTAS LISTO</span>
-                  <span className='stroke-text'>PARA LLEVAR</span>
+                  <span className='black'>ESTAS LISTO</span>
+                  <span className='stroke-text white'>PARA LLEVAR</span>
               </div>
               <div>
-                  <span className='stroke-text'>TU CUERPO</span>
-                  <span>AL SIGUIENTE NIVEL?</span>
+                  <span className='stroke-text white' >TU CUERPO</span>
+                  <span className='black'>AL SIGUIENTE NIVEL?</span>
               </div>
 
           </motion.div>

@@ -2,6 +2,7 @@
     display: flex;
     padding: 0 2rem;
     gap: 10rem;
+    margin-top: 3rem;
 }
 
 .left-j {
@@ -15,7 +16,7 @@
 .left-j>hr {
     position: absolute;
     width: 40rem;
-    border: 2px solid gray;
+    border: 2px solid #E5DC16;
     border: 20%;
     margin: -10px 0;
     border-radius: 0;
@@ -24,6 +25,17 @@
 .left-j>div {
     display: flex;
     gap: 0.5rem;
+}
+
+.black{
+    color: black;
+}
+
+.white{
+    text-shadow: 2px 2px #E5DC16;
+    -webkit-text-stroke-color:black ;
+
+
 }
 
 .right-j {
@@ -36,7 +48,7 @@
 .email-container {
     display: flex;
     gap: 3rem;
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
     padding: 1rem 1rem;
     width: fit-content;
 
@@ -56,12 +68,12 @@
 }
 
 ::placeholder {
-    color: var(--lightgray);
+    color: #ffffff;
 }
 
 .btn-j {
-    background-color: var(--orange);
-    color: white;
+    background-color:#E5DC16;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -73,7 +85,7 @@
         overflow: hidden;
     }
 
-    .left-j {
+    .left-j .black .white {
         font-size: 2rem;
         flex-direction: column;
 

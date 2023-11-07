@@ -5,16 +5,13 @@
     padding: 0 2rem;
     align-items: center;
     /* margin-top: -3rem; */
-    /* background-color: #0c2146;     */
+    background-color: #000000f3;  
+    box-shadow: 3px 3px 3px 3px rgba(2, 2, 2, 0.521)  
+    /* background-image: url(C:\rgba(22, 22, 22, 0.871)ni\OneDrive\Escritorio\Gym-website\FitClub-Starter\src\assets\gymfoto4.jpg); */
    
 }
 
-.background{
-    background-image: url(C:\Users\trini\OneDrive\Escritorio\Gym-website\FitClub-Starter\src\assets\gymfoto1.png);
-    background-size: 100%;
-    opacity: 0.3;
 
-}
 
 
 
@@ -40,8 +37,8 @@
 .category{
     display: flex;
     flex-direction: column;
-    background-color: rgba(9, 9, 9, 0.125);
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.248);
+    background-color: rgba(80, 79, 79, 0.103);
+    box-shadow: 2px 2px 2px 2px rgba(173, 173, 173, 0.107);
     padding: 2rem;
     gap: 1rem;
     color: white;
@@ -53,7 +50,7 @@
 .category>:nth-child(1){
     width: 2rem;
     height: 2rem;
-    fill: white;
+    fill: #E5DC16;
 }
 
 .category>:nth-child(2){
