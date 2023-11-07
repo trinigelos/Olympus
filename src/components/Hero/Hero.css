@@ -109,10 +109,12 @@
         align-items: center;
         background-color: #e5db1670;
         text-shadow: none;
+        color: black;
     }
 
     .hero-image{
     opacity: 60%;
+    z-index: -100;
 
     }
 }
