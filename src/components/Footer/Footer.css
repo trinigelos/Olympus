@@ -3,7 +3,7 @@
 }
 
 .Footer-container>hr{
-border: 1px solid #E5DC16;
+border: 1px solid var(--details);
 
 
 }

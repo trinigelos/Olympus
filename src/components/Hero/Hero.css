@@ -37,7 +37,7 @@
     color: rgb(0, 0, 0);
     font-family: 'Cardo', serif;
     letter-spacing: 6px;
-    text-shadow: 2px 2px #E5DC16;
+    text-shadow: 2px 2px #11134480;
 }
 
 .semidioses-text {
@@ -102,14 +102,15 @@
     }
 
     .semidioses-text {
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: bold;
-        letter-spacing: 6px;
+        letter-spacing: 5px;
         justify-content: center;
         align-items: center;
-        background-color: #e5db1670;
+        /* background-color: var(--details); */
         text-shadow: none;
-        color: black;
+        color: rgb(0, 0, 0);
+        text-shadow: 1px 1px #11134480;
     }
 
     .hero-image{

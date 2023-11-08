@@ -17,8 +17,8 @@ const Reasons = () => {
               initial={{opacity: 0, x: 50}}
                     whileInView={{ opacity: 1, x: 0 }}  
               >
-                  <span className='whitey blacky'>QUIENES </span>
-                  <span className='stroke-text whitey yellow'>SOMOS?</span>
+                  <span className='whitey'>QUIENES </span>
+                  <span className='whitey '>SOMOS?</span>
               </motion.div>
 
 

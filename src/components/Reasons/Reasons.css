@@ -20,13 +20,7 @@
     
 }
 
-.yellow {
 
-    text-shadow: 2px 2px #E5DC16;
-    -webkit-text-stroke-color:black ;
-
-
-}
 .whitey{
     position: relative;
     align-items: center;
@@ -34,14 +28,12 @@
     font-weight: bold;
     font-size: 3.5rem;
     padding: 30px;
+    font-family: 'Cardo', serif;
+    text-shadow: 2px 2px var(--details);
+
 
 }
-.blacky {
-    color: rgb(24, 21, 21);
-    text-shadow: none;
-    
 
-}
 
 .video {
     height: 25rem;

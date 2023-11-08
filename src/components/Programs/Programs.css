@@ -4,10 +4,8 @@
     gap: 2rem;
     padding: 0 2rem;
     align-items: center;
-    /* margin-top: -3rem; */
     background-color: #000000f3;  
-    box-shadow: 3px 3px 3px 3px rgba(2, 2, 2, 0.521)  
-    /* background-image: url(C:\rgba(22, 22, 22, 0.871)ni\OneDrive\Escritorio\Gym-website\FitClub-Starter\src\assets\gymfoto4.jpg); */
+    box-shadow: 3px 3px 3px 3px var(--details);  
    
 }
 
@@ -50,7 +48,7 @@
 .category>:nth-child(1){
     width: 2rem;
     height: 2rem;
-    fill: #E5DC16;
+    fill: #e5db16dd;
 }
 
 .category>:nth-child(2){

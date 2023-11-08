@@ -16,7 +16,7 @@
 .left-j>hr {
     position: absolute;
     width: 40rem;
-    border: 2px solid #E5DC16;
+    border: 2px solid var(--details);
     border: 20%;
     margin: -10px 0;
     border-radius: 0;
@@ -32,7 +32,7 @@
 }
 
 .white{
-    text-shadow: 2px 2px #E5DC16;
+    text-shadow: 2px 2px var(--details);
     -webkit-text-stroke-color:black ;
 
 
@@ -72,9 +72,9 @@
 }
 
 .btn-j {
-    background-color:#E5DC16;
+    background-color:rgba(229, 219, 22, 0.654);
     color: rgb(0, 0, 0);
-
+    
 }
 
 @media screen and (max-width:1128px) {
